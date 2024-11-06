@@ -1,10 +1,19 @@
 package Listas;
 
-public class ListaTarefas {
+public class Tarefa {
     //atributo
     private String descricao;
 
-    public ListaTarefas(String descricao) {
+    public Tarefa(String descricao) {
         this.descricao = descricao;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    @Override
+    public String toString() { //metodo ToString para sobrescrever o metodo mudando a mensagem da tarefa
+        return descricao;
     }
 }
