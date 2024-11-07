@@ -39,7 +39,7 @@ public class CarrinhoDeCompras {
             }
             return valorTotal;
         } else {
-            throw new RuntimeException("A lista está vazia!");
+            throw new RuntimeException("A lista está vazia! ");
         }
     }
 
