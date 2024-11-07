@@ -1,4 +1,4 @@
-package Listas;
+package Listas.OperacoesBasicas;
 
 public class Item {
     private String nome;
@@ -27,6 +27,6 @@ public class Item {
     public String toString() {
         return "nome='" + nome + '\'' +
                 ", preco=" + preco +
-                ", quant=" + quantidade;
+                ", quantidade=" + quantidade;
     }
 }
